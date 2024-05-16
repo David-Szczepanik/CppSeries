@@ -10,4 +10,6 @@ add_executable(CppSeries main.cpp
         Variables.cpp
         Conditionals.cpp
         Log.h
+        Pointers.cpp
+        References.cpp
 )

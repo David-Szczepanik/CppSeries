@@ -8,4 +8,6 @@ add_executable(CppSeries main.cpp
         Math.cpp
         EndBrace.h
         Variables.cpp
+        Conditionals.cpp
+        Log.h
 )

@@ -12,4 +12,12 @@ add_executable(CppSeries main.cpp
         Log.h
         Pointers.cpp
         References.cpp
+        Classes.cpp
+        Class01.cpp
+        StaticMain.cpp
+        Static.cpp
+        Enums.cpp
+        Constructors.cpp
+        Inheritance.cpp
+        VirtualFunctions.cpp
 )

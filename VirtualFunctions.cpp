@@ -1,10 +1,19 @@
 #include <iostream>
 #include <string>
 
-class Entity {
+// Interface
+class Printable {
+public:
+  virtual std::string GetClassName() = 0; //Pure Virtual
+  virtual ~Printable() = default;
+  // ~ Destructor
+};
+
+class Entity : public Printable {
 public:
   // virtual std::string GetName() { return "Entity"; }
-  virtual std::string GetName() = 0;  //PURE VIRTUAL FUNCTION | Has to be implemented in a subclass
+  virtual std::string GetName() { return "Entity"; } //PURE VIRTUAL FUNCTION | Has to be implemented in a subclass
+  std::string GetClassName() override { return "Entity"; }
 };
 
 class Player : public Entity {
@@ -17,19 +26,33 @@ public:
   }
 
   std::string GetName() override { return m_Name; }
+  std::string GetClassName() override { return "Player"; }
 };
 
 void PrintName(Entity* entity) {
-  std::cout << entity->GetName() + '\n';
+  std::cout << entity->GetName() << std::endl;
+}
+
+class A : public Printable {
+public:
+  std::string GetClassName() override { return "A"; }
+};
+
+void Print(Printable* obj) {
+  std::cout << obj->GetClassName() << std::endl;
 }
 
 void VirtualFunctions() {
   Entity* e = new Entity();
-  PrintName(e);
+  // PrintName(e);
 
   Player* p = new Player("Cherno");
-  PrintName(p);
+  // PrintName(p);
 
-  Entity* entity = p;
-  std::cout << entity->GetName();
+  Print(e);
+  Print(p);
+  Print(new A()); //TODO:Memory leak?
+
+  // Entity* entity = p;
+  // std::cout << entity->GetName();
 }

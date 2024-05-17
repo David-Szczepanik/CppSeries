@@ -20,4 +20,5 @@ add_executable(CppSeries main.cpp
         Constructors.cpp
         Inheritance.cpp
         VirtualFunctions.cpp
+        Arrays.cpp
 )

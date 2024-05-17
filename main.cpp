@@ -10,6 +10,7 @@ void Enums();
 void Constructors();
 void Inheritance();
 void VirtualFunctions();
+void Arrays();
 
 int main() {
   // Log("Hello World!");
@@ -23,8 +24,8 @@ int main() {
   // Enums();
   // Constructors();
   // Inheritance();
-  VirtualFunctions();
-
+  // VirtualFunctions();
+  Arrays();
 
   // std::cin.get();
   return 0;

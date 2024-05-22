@@ -11,6 +11,9 @@ void Constructors();
 void Inheritance();
 void VirtualFunctions();
 void Arrays();
+void Strings();
+void StringLiterals();
+void Convert();
 
 int main() {
   // Log("Hello World!");
@@ -25,7 +28,10 @@ int main() {
   // Constructors();
   // Inheritance();
   // VirtualFunctions();
-  Arrays();
+  // Arrays();
+  // Strings();
+  // StringLiterals();
+  Convert();
 
   // std::cin.get();
   return 0;

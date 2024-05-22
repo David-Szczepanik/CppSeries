@@ -21,4 +21,7 @@ add_executable(CppSeries main.cpp
         Inheritance.cpp
         VirtualFunctions.cpp
         Arrays.cpp
+        Strings.cpp
+        StringLiterals.cpp
+        Convert.cpp
 )

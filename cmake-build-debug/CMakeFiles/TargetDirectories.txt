@@ -1,0 +1,3 @@
+H:/C++/CppSeries/cmake-build-debug/CMakeFiles/CppSeries.dir
+H:/C++/CppSeries/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/C++/CppSeries/cmake-build-debug/CMakeFiles/rebuild_cache.dir

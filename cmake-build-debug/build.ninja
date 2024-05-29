@@ -163,6 +163,18 @@ build CMakeFiles/CppSeries.dir/Convert.cpp.obj: CXX_COMPILER__CppSeries_unscanne
   OBJECT_DIR = CMakeFiles\CppSeries.dir
   OBJECT_FILE_DIR = CMakeFiles\CppSeries.dir
 
+build CMakeFiles/CppSeries.dir/Unordered_Map.cpp.obj: CXX_COMPILER__CppSeries_unscanned_Debug H$:/C++/CppSeries/Unordered_Map.cpp || cmake_object_order_depends_target_CppSeries
+  DEP_FILE = CMakeFiles\CppSeries.dir\Unordered_Map.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CppSeries.dir
+  OBJECT_FILE_DIR = CMakeFiles\CppSeries.dir
+
+build CMakeFiles/CppSeries.dir/BasicOperations/Multiplication.cpp.obj: CXX_COMPILER__CppSeries_unscanned_Debug H$:/C++/CppSeries/BasicOperations/Multiplication.cpp || cmake_object_order_depends_target_CppSeries
+  DEP_FILE = CMakeFiles\CppSeries.dir\BasicOperations\Multiplication.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CppSeries.dir
+  OBJECT_FILE_DIR = CMakeFiles\CppSeries.dir\BasicOperations
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CppSeries
@@ -171,7 +183,7 @@ build CMakeFiles/CppSeries.dir/Convert.cpp.obj: CXX_COMPILER__CppSeries_unscanne
 #############################################
 # Link the executable CppSeries.exe
 
-build CppSeries.exe: CXX_EXECUTABLE_LINKER__CppSeries_Debug CMakeFiles/CppSeries.dir/main.cpp.obj CMakeFiles/CppSeries.dir/Log.cpp.obj CMakeFiles/CppSeries.dir/Math.cpp.obj CMakeFiles/CppSeries.dir/Variables.cpp.obj CMakeFiles/CppSeries.dir/Conditionals.cpp.obj CMakeFiles/CppSeries.dir/Pointers.cpp.obj CMakeFiles/CppSeries.dir/References.cpp.obj CMakeFiles/CppSeries.dir/Classes.cpp.obj CMakeFiles/CppSeries.dir/Class01.cpp.obj CMakeFiles/CppSeries.dir/StaticMain.cpp.obj CMakeFiles/CppSeries.dir/Static.cpp.obj CMakeFiles/CppSeries.dir/Enums.cpp.obj CMakeFiles/CppSeries.dir/Constructors.cpp.obj CMakeFiles/CppSeries.dir/Inheritance.cpp.obj CMakeFiles/CppSeries.dir/VirtualFunctions.cpp.obj CMakeFiles/CppSeries.dir/Arrays.cpp.obj CMakeFiles/CppSeries.dir/Strings.cpp.obj CMakeFiles/CppSeries.dir/StringLiterals.cpp.obj CMakeFiles/CppSeries.dir/Convert.cpp.obj
+build CppSeries.exe: CXX_EXECUTABLE_LINKER__CppSeries_Debug CMakeFiles/CppSeries.dir/main.cpp.obj CMakeFiles/CppSeries.dir/Log.cpp.obj CMakeFiles/CppSeries.dir/Math.cpp.obj CMakeFiles/CppSeries.dir/Variables.cpp.obj CMakeFiles/CppSeries.dir/Conditionals.cpp.obj CMakeFiles/CppSeries.dir/Pointers.cpp.obj CMakeFiles/CppSeries.dir/References.cpp.obj CMakeFiles/CppSeries.dir/Classes.cpp.obj CMakeFiles/CppSeries.dir/Class01.cpp.obj CMakeFiles/CppSeries.dir/StaticMain.cpp.obj CMakeFiles/CppSeries.dir/Static.cpp.obj CMakeFiles/CppSeries.dir/Enums.cpp.obj CMakeFiles/CppSeries.dir/Constructors.cpp.obj CMakeFiles/CppSeries.dir/Inheritance.cpp.obj CMakeFiles/CppSeries.dir/VirtualFunctions.cpp.obj CMakeFiles/CppSeries.dir/Arrays.cpp.obj CMakeFiles/CppSeries.dir/Strings.cpp.obj CMakeFiles/CppSeries.dir/StringLiterals.cpp.obj CMakeFiles/CppSeries.dir/Convert.cpp.obj CMakeFiles/CppSeries.dir/Unordered_Map.cpp.obj CMakeFiles/CppSeries.dir/BasicOperations/Multiplication.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CppSeries.dir

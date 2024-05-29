@@ -14,6 +14,7 @@ void Arrays();
 void Strings();
 void StringLiterals();
 void Convert();
+void Multiplication();
 
 int main() {
   // Log("Hello World!");
@@ -31,7 +32,8 @@ int main() {
   // Arrays();
   // Strings();
   // StringLiterals();
-  Convert();
+  // Convert();
+  Multiplication();
 
   // std::cin.get();
   return 0;

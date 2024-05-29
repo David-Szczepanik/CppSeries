@@ -24,4 +24,6 @@ add_executable(CppSeries main.cpp
         Strings.cpp
         StringLiterals.cpp
         Convert.cpp
+        Unordered_Map.cpp
+        BasicOperations/Multiplication.cpp
 )
